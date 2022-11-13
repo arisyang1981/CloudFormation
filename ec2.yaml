@@ -1,0 +1,11 @@
+Resources:
+  ec2Bycloudformation:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: "ami-09d3b3274b6c5d4aa"
+      InstanceType: t2.micro
+      Tags:
+        - Key: "Name"
+          Value: "ec2_by_cloudformation"
+        - Key: "Purpose"
+          Value: "Practice cloudformation, create EC2 instance"
