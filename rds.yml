@@ -1,0 +1,22 @@
+Resources:
+  MyDB:
+    Type: 'AWS::RDS::DBInstance'
+    Properties:
+      DBName: RDS_cloudformation_lab
+      AllocatedStorage: '5'
+      DBInstanceClass: db.t2.small
+      Engine: MySQL
+      EngineVersion: 8.0.23
+      MasterUsername: admin
+      MasterUserPassword: RDS_cloudformation_lab
+      DBParameterGroupName: !Ref MyRDSParamGroup
+  MyRDSParamGroup:
+    Type: 'AWS::RDS::DBParameterGroup'
+    Properties:
+      Family: MySQL8.0
+      Description: CloudFormation Sample Database Parameter Group
+      Parameters:
+        autocommit: '1'
+        general_log: '1'
+
+
