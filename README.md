@@ -15,3 +15,6 @@ https://learn.acloud.guru/course/intro-aws-cloudformation/learn/c22a36d9-b313-5b
 
 YAML vs JSON: \
 https://github.com/arisyang1981/YAML-vs-JSON/edit/main/README.md
+
+# AWS Resources 
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
