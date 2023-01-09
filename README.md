@@ -9,7 +9,7 @@ Stack \
 Change Sets \
 
 # Create stacks from file
-aws cloudformation create-stack --stack-name ${name} --template-body file://${file} \
+aws cloudformation create-stack --stack-name /${name} --template-body file://${file} \
 Notice: must have file://.
 
 # Introduction CloudFormation
