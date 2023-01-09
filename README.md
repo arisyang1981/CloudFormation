@@ -18,3 +18,6 @@ https://github.com/arisyang1981/YAML-vs-JSON/edit/main/README.md
 
 # AWS Resources 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
+
+# VPC
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html 
