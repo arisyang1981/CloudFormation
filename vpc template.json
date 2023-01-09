@@ -1,20 +1,28 @@
 {
-   "AWSTemplateFormatVersion":"2010-09-09",
-   "Description":"VPC template",
-   "Resources":{
-      "vpc":{
-         "Type":"AWS::EC2::VPC",
-         "Properties":{
-            "CidrBlock":"10.0.0.0/16",
-            "EnableDnsSupport":"true",
-            "EnableDnsHostnames":"true",
-            "Tags":[
-               {
-                  "Key":"Name",
-                  "Value":"vpc-lab"
-               }
-            ]
-         }
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "VPC template",
+  "Resources": {
+    "vpc": {
+      "Type": "AWS::EC2::VPC",
+      "Properties": {
+        "CidrBlock": "10.0.0.0/16",
+        "EnableDnsSupport": "true",
+        "EnableDnsHostnames": "true",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "vpc-lab"
+          },
+          {
+            "Key": "Purpose",
+            "Value": "Test"
+          },
+          {
+            "Key": "Department",
+            "Value": "DBA"
+          }
+        ]
       }
-   }
+    }
+  }
 }
