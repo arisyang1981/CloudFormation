@@ -28,3 +28,5 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 Question:
 # What is 'Ref'?
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html
+# What is 'Fn::GetAtt'
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html
