@@ -31,8 +31,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/continuous-delive
 
 # Key Pair
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html#create-key-pair-cloudformation \
-Create key pair using cloudformation, the private key is saved to AWS Systems Manager Parameter Store. It's /ec2/keypair/${KeyPairId}
+Create key pair using cloudformation, the private key is saved to AWS Systems Manager Parameter Store. It's /ec2/keypair/${KeyPairId}. \
+When create key pair using GUI, please save key pair by yourself. \
+Create Key Pair from KP.yaml \
+aws cloudformation create-stack --stack-name stack-lab-kp --template-body file://~/KP.yaml \
+Check out KeyPairId. 
 aws ec2 describe-key-pairs --filters Name=key-name,Values=${name} --query 'KeyPairs[*].[KeyPairId]' --output text \
+Pull out KeyPair file from AWS System Manager Parameter Store. \
+aws ssm get-parameter --name /ec2/keypair/${KeyPairId} --with-decryption --query Parameter.Value --output text > new-key-pair.pem
 
 Question:
 # What is 'Ref'?
