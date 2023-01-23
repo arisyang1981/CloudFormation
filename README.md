@@ -29,6 +29,8 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 # Cloudformation and CI/CD
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/continuous-delivery-codepipeline-basic-walkthrough.html
 
+# Key Pair
+aws ec2 describe-key-pairs --filters Name=key-name,Values=${name} --query 'KeyPairs[*].[KeyPairId]' --output text
 
 Question:
 # What is 'Ref'?
