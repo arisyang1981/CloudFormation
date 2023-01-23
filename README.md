@@ -9,8 +9,8 @@ Stack \
 Change Sets \
 
 # Create stacks from file
-file=/home/cloudshell-user/test.yaml
-aws cloudformation validate-template --template-body file://${file}
+file=/home/cloudshell-user/test.yaml \
+aws cloudformation validate-template --template-body file://${file} \
 aws cloudformation create-stack --stack-name name --template-body file://${file} \
 Notice: must have file://.
 
