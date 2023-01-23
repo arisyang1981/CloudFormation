@@ -30,6 +30,8 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/continuous-delivery-codepipeline-basic-walkthrough.html
 
 # Key Pair
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html#create-key-pair-cloudformation \
+Create key pair using cloudformation, the private key is saved to AWS Systems Manager Parameter Store. It's /ec2/keypair/${KeyPairId}
 aws ec2 describe-key-pairs --filters Name=key-name,Values=${name} --query 'KeyPairs[*].[KeyPairId]' --output text \
 
 Question:
