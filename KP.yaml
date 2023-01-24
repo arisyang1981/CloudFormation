@@ -2,7 +2,11 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: Create AWS resource using cloudformation.
 Resources:
-  NewKeyPair:
+  RSKP01:
     Type: AWS::EC2::KeyPair
     Properties:
-      KeyName: MyKeyPair
+      KeyName: KP01
+  RSKP02:
+    Type: AWS::EC2::KeyPair
+    Properties:
+      KeyName: KP02
