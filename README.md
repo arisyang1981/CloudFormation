@@ -15,10 +15,17 @@ aws cloudformation create-stack --stack-name name --template-body file://${file}
 Notice: must have file://.
 
 # Introduction CloudFormation
+#Introduction to AWS CloudFormation : \
 https://learn.acloud.guru/course/intro-aws-cloudformation/learn/c22a36d9-b313-5b7c-d42f-23516e9f1ba9/dfe0c502-dbd8-f316-56ab-212f6a155f60/watch
 
-YAML vs JSON: \
-https://github.com/arisyang1981/YAML-vs-JSON/edit/main/README.md
+#YAML vs JSON \
+https://github.com/arisyang1981/YAML-vs-JSON/edit/main/README.md 
+
+#CloudFormation Deep Diver \
+https://learn.acloud.guru/course/d8a92be0-dbab-4498-a2af-375a7a591ae8/dashboard 
+
+#Mastering AWS CloudFormation \
+https://learn.acloud.guru/course/mastering-aws-cloudformation/dashboard
 
 # AWS Resources 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
