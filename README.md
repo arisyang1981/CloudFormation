@@ -19,7 +19,7 @@ Notice: must have file://.
 https://github.com/arisyang1981/YAML-vs-JSON/edit/main/README.md 
 
 #Introduction to AWS CloudFormation : \
-https://learn.acloud.guru/course/intro-aws-cloudformation/learn/c22a36d9-b313-5b7c-d42f-23516e9f1ba9/dfe0c502-dbd8-f316-56ab-212f6a155f60/watch
+https://learn.acloud.guru/course/intro-aws-cloudformation/dashboard 
 
 #CloudFormation Deep Diver \
 https://learn.acloud.guru/course/d8a92be0-dbab-4498-a2af-375a7a591ae8/dashboard 
