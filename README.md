@@ -60,5 +60,6 @@ Q1: Delete a stack, but how keep resources created by stack? \
 Questions from the section 'Simplify infrastructure management' in https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html. \
 A1:?
 
-
+Progress: \
+End to https://learn.acloud.guru/course/intro-aws-cloudformation/learn/ff995b77-4671-423e-0ab8-9d3b2b84d716/4c4362aa-075a-8c73-f85f-e04417638ffa/watch \
 
