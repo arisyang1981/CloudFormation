@@ -52,3 +52,8 @@ Question:
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html
 # What is 'Fn::GetAtt'
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html
+
+
+# The second time on 3/11/2023.
+#3/11, read https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html. \
+
