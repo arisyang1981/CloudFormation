@@ -56,4 +56,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-functio
 
 # The second time on 3/11/2023.
 #3/11, read https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html. \
+Q1: Delete a stack, but how keep resources created by stack? \
+Questions from the section 'Simplify infrastructure management' in https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html. \
+A1:?
+
+
 
