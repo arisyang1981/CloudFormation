@@ -42,7 +42,7 @@ Create key pair using cloudformation, the private key is saved to AWS Systems Ma
 When create key pair using GUI, please save key pair by yourself. \
 Create Key Pair from KP.yaml \
 aws cloudformation create-stack --stack-name stack-lab-kp --template-body file://~/KP.yaml \
-Check out KeyPairId. 
+Check out KeyPairId. \
 aws ec2 describe-key-pairs --filters Name=key-name,Values=${name} --query 'KeyPairs[*].[KeyPairId]' --output text \
 Pull out KeyPair file from AWS System Manager Parameter Store. \
 aws ssm get-parameter --name /ec2/keypair/${KeyPairId} --with-decryption --query Parameter.Value --output text > new-key-pair.pem
@@ -68,7 +68,7 @@ Also, it applies to update stack which need to delete resource first. So very im
 Q: How to reference other resource under the same template? \
 A: - !REF other_resources_name \
 Q: How to reference ohter resource in different templates? \
-A: - Existing_Resource
+A: - Existing_Resource. \
 Q: What is the logical name and the phisical name of a resource? \
 A: The logical name of the resource is the resource name in template. \
 The physical name of the resource is the combination of the logical name, the stack name, and a unique ID. \
