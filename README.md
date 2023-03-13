@@ -69,6 +69,7 @@ Q: How to reference other resource under the same template? \
 A: - !REF other_resources_name \
 Q: How to reference ohter resource in different templates? \
 A: - Existing_Resource. \
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html \
 Q: What is the logical name and the phisical name of a resource? \
 A: The logical name of the resource is the resource name in template. \
 The physical name of the resource is the combination of the logical name, the stack name, and a unique ID. \
