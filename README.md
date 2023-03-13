@@ -64,6 +64,16 @@ DeletePolicy is very imporant. \
 It applies to delete stack, but want to keep resource. \
 Also, it applies to update stack which need to delete resource first. So very imporant, if don't know if update stack will delete resource.
 
+#3/13/2023
+Q: How to reference other resource under the same template?
+A: - !REF other_resources_name
+Q: How to reference ohter resource in different templates?
+A: ?
+Q: What is the logical name and the phisical name of a resource?
+A: The logical name of the resource is the resource name in template. 
+The physical name of the resource is the combination of the logical name, the stack name, and a unique ID.
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html
+
 Progress: \
 End to https://learn.acloud.guru/course/intro-aws-cloudformation/learn/ff995b77-4671-423e-0ab8-9d3b2b84d716/4c4362aa-075a-8c73-f85f-e04417638ffa/watch 
 
