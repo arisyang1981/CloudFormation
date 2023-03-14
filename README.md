@@ -91,7 +91,9 @@ Q: What is pseudo parameter? \
 A: Pseudo parameters are parameters that are predefined by AWS CloudFormation. \
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html 
 
-#Mapping 
+#Mapping \
+https://learn.acloud.guru/course/intro-aws-cloudformation/learn/05254203-32a5-4bc1-de73-72d26874efc7/db751f2a-88ad-f32d-a997-e8c54e622a50/watch \
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html \
 
 
 Progress: \
