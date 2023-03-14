@@ -78,6 +78,10 @@ A: The logical name of the resource is the resource name in template. \
 The physical name of the resource is the combination of the logical name, the stack name, and a unique ID. \
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html \
 
+#Intrinsic function \
+#Hard for me, please study few more times. \
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html \
+
 Progress: \
 End to https://learn.acloud.guru/course/intro-aws-cloudformation/learn/ff995b77-4671-423e-0ab8-9d3b2b84d716/4c4362aa-075a-8c73-f85f-e04417638ffa/watch 
 
