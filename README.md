@@ -86,6 +86,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-functio
 https://learn.acloud.guru/course/intro-aws-cloudformation/learn/05254203-32a5-4bc1-de73-72d26874efc7/99f41daf-cb46-b596-d906-97cc01d4e232/watch \
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-cli-creating-stack.html
 
+#pseudo parameter \
+Q: What is pseudo parameter? \
+A:
+
 #Mapping 
 
 
