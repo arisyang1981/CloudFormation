@@ -88,7 +88,8 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-cli-cre
 
 #pseudo parameter \
 Q: What is pseudo parameter? \
-A:
+A: Pseudo parameters are parameters that are predefined by AWS CloudFormation. \
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html 
 
 #Mapping 
 
