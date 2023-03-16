@@ -96,6 +96,9 @@ https://learn.acloud.guru/course/intro-aws-cloudformation/learn/05254203-32a5-4b
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html  
 
 #3/15/2023  
+#Change set    
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html  
+
 #Advanced  
 Q: Cloudformation helper.  
 A: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-helper-scripts-reference.html 
