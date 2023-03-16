@@ -97,5 +97,5 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.te
 
 #3/15/2023 \
 #Advanced \
-Q: Cloudformation helper 
+Q: Cloudformation helper.  
 A: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-helper-scripts-reference.html\
