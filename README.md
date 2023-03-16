@@ -95,7 +95,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-
 https://learn.acloud.guru/course/intro-aws-cloudformation/learn/05254203-32a5-4bc1-de73-72d26874efc7/db751f2a-88ad-f32d-a997-e8c54e622a50/watch \
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html \
 
-
-Progress: \
-End to https://learn.acloud.guru/course/intro-aws-cloudformation/learn/ff995b77-4671-423e-0ab8-9d3b2b84d716/4c4362aa-075a-8c73-f85f-e04417638ffa/watch 
-
+#3/15/2023 \
+#Advanced \
+Q: Cloudformation helper \  
+A: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-helper-scripts-reference.html\
