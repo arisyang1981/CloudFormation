@@ -63,6 +63,8 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-del
 DeletePolicy is very imporant.  
 It applies to delete stack, but want to keep resource.  
 Also, it applies to update stack which need to delete resource first. So very imporant, if don't know if update stack will delete resource.
+Q2: How to prevent resource is updated.
+A2: Define stack policy.
 
 #3/13/2023  
 Referfer other resources:  
